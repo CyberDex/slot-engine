@@ -1,0 +1,45 @@
+{
+    "skeleton": {
+        "hash": "+Rhowo113Sc",
+        "spine": "4.2.43",
+        "x": -77.5,
+        "y": -81.5,
+        "width": 155,
+        "height": 163
+    },
+    "bones": [{ "name": "settingsButton" }],
+    "slots": [
+        { "name": "button_settings", "bone": "settingsButton", "attachment": "Button/SmallButton" },
+        { "name": "settings_icon", "bone": "settingsButton", "attachment": "Icons/SettingsIcon" }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "button_settings": { "Button/SmallButton": { "width": 155, "height": 163 } },
+                "settings_icon": { "Icons/SettingsIcon": { "y": 10.69, "width": 95, "height": 95 } }
+            }
+        }
+    ],
+    "animations": {
+        "init": {},
+        "event_settings_down/button-down": {
+            "bones": {
+                "settingsButton": { "scale": [{}, { "time": 0.1333, "x": 0.95, "y": 0.95 }] }
+            }
+        },
+        "event_settings_hover/button-hover": {
+            "bones": {
+                "settingsButton": { "scale": [{}, { "time": 0.1333, "x": 1.05, "y": 1.05 }] }
+            }
+        },
+        "event_settings_unhover/button-unhover": {
+            "bones": {
+                "settingsButton": { "scale": [{ "x": 1.05, "y": 1.05 }, { "time": 0.1333 }] }
+            }
+        },
+        "event_settings_up/button-up": {
+            "bones": { "settingsButton": { "scale": [{ "time": 0.1333 }] } }
+        }
+    }
+}

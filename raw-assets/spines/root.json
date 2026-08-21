@@ -1,0 +1,169 @@
+{
+    "skeleton": {
+        "hash": "vMVJvetRELw",
+        "spine": "4.2.43",
+        "x": -2873.45,
+        "y": -958.96,
+        "width": 5751.38,
+        "height": 1919.83
+    },
+    "bones": [
+        { "name": "root" },
+        { "name": "bg", "parent": "root" },
+        { "name": "top", "parent": "bg" },
+        { "name": "bottom", "parent": "bg", "y": -274.48 },
+        { "name": "bottom2", "parent": "bg", "x": 1707.66, "y": -274.48 },
+        { "name": "bottom3", "parent": "bg", "x": -2180.34, "y": -274.48 },
+        { "name": "top2", "parent": "bg", "x": 1917.94 },
+        { "name": "top3", "parent": "bg", "x": -1815.78 },
+        { "name": "spine_hero", "parent": "root", "y": -956.47 },
+        { "name": "spine_settingsButton", "parent": "root", "x": 424.43, "y": 863.01 },
+        { "name": "text_Game Name", "parent": "root", "y": 916.7 }
+    ],
+    "slots": [
+        { "name": "bg", "bone": "bg", "attachment": "BG/bgColor" },
+        { "name": "clouds", "bone": "bottom", "attachment": "BG/clouds" },
+        { "name": "clouds2", "bone": "bottom2", "attachment": "BG/clouds" },
+        { "name": "clouds3", "bone": "bottom3", "attachment": "BG/clouds" },
+        { "name": "mountain1", "bone": "bottom", "attachment": "BG/mountain1" },
+        { "name": "mountain3", "bone": "bottom2", "attachment": "BG/mountain1" },
+        { "name": "mountain5", "bone": "bottom3", "attachment": "BG/mountain1" },
+        { "name": "mountain2", "bone": "bottom", "attachment": "BG/mountain2" },
+        { "name": "mountain4", "bone": "bottom2", "attachment": "BG/mountain2" },
+        { "name": "mountain6", "bone": "bottom3", "attachment": "BG/mountain2" },
+        { "name": "sky1", "bone": "top", "attachment": "BG/sky1" },
+        { "name": "sky3", "bone": "top2", "attachment": "BG/sky1" },
+        { "name": "sky5", "bone": "top3", "attachment": "BG/sky1" },
+        { "name": "sky2", "bone": "top", "attachment": "BG/sky2" },
+        { "name": "sky4", "bone": "top2", "attachment": "BG/sky2" },
+        { "name": "sky6", "bone": "top3", "attachment": "BG/sky2" },
+        { "name": "front3", "bone": "bottom3", "attachment": "BG/front" },
+        { "name": "front2", "bone": "bottom2", "attachment": "BG/front" },
+        { "name": "front", "bone": "bottom", "attachment": "BG/front" },
+        { "name": "spine_hero", "bone": "spine_hero" },
+        { "name": "spine_popup", "bone": "root" },
+        { "name": "spine_settingsButton", "bone": "spine_settingsButton" },
+        { "name": "text_Game Name", "bone": "text_Game Name" }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bg": {
+                    "BG/bgColor": {
+                        "scaleX": 56.5277,
+                        "scaleY": 19.0414,
+                        "width": 100,
+                        "height": 100
+                    }
+                },
+                "clouds": { "BG/clouds": { "y": 309.22, "width": 1920, "height": 790 } },
+                "clouds2": {
+                    "BG/clouds": {
+                        "x": 71.35,
+                        "y": 309.22,
+                        "scaleX": -1,
+                        "width": 1920,
+                        "height": 790
+                    }
+                },
+                "clouds3": {
+                    "BG/clouds": {
+                        "x": 348.91,
+                        "y": 309.22,
+                        "scaleX": -1,
+                        "width": 1920,
+                        "height": 790
+                    }
+                },
+                "front": { "BG/front": { "y": -412.98, "width": 1920, "height": 543 } },
+                "front2": {
+                    "BG/front": {
+                        "x": -229.79,
+                        "y": -412.98,
+                        "scaleX": -1,
+                        "width": 1920,
+                        "height": 543
+                    }
+                },
+                "front3": {
+                    "BG/front": {
+                        "x": 266.89,
+                        "y": -412.98,
+                        "scaleX": -1,
+                        "width": 1920,
+                        "height": 543
+                    }
+                },
+                "mountain1": { "BG/mountain1": { "y": -54.68, "width": 1920, "height": 559 } },
+                "mountain2": { "BG/mountain2": { "y": -269.55, "width": 1920, "height": 476 } },
+                "mountain3": {
+                    "BG/mountain1": { "x": -27.69, "y": -54.68, "width": 1920, "height": 559 }
+                },
+                "mountain4": {
+                    "BG/mountain2": {
+                        "x": 114.22,
+                        "y": -269.55,
+                        "scaleX": -1,
+                        "width": 1920,
+                        "height": 476
+                    }
+                },
+                "mountain5": {
+                    "BG/mountain1": { "x": 476.74, "y": -54.68, "width": 1920, "height": 559 }
+                },
+                "mountain6": {
+                    "BG/mountain2": {
+                        "x": 401.52,
+                        "y": -269.55,
+                        "scaleX": -1,
+                        "width": 1920,
+                        "height": 476
+                    }
+                },
+                "sky1": { "BG/sky1": { "y": 802.37, "width": 1920, "height": 317 } },
+                "sky2": { "BG/sky2": { "y": 644.18, "width": 1920, "height": 243 } },
+                "sky3": { "BG/sky1": { "y": 802.37, "scaleX": -1, "width": 1920, "height": 317 } },
+                "sky4": { "BG/sky2": { "y": 644.18, "scaleX": -1, "width": 1920, "height": 243 } },
+                "sky5": { "BG/sky1": { "y": 802.37, "scaleX": -1, "width": 1920, "height": 317 } },
+                "sky6": { "BG/sky2": { "y": 644.18, "scaleX": -1, "width": 1920, "height": 243 } }
+            }
+        }
+    ],
+    "events": { "shake": {} },
+    "animations": {
+        "init": {},
+        "event_shake/shake-game-name": {
+            "bones": {
+                "text_Game Name": {
+                    "rotate": [
+                        {},
+                        { "time": 0.0333, "value": -20 },
+                        { "time": 0.1, "value": 20 },
+                        { "time": 0.1333 }
+                    ],
+                    "translate": [{ "time": 0.0333 }]
+                }
+            }
+        },
+        "state_shake/shake": {
+            "bones": {
+                "root": {
+                    "translate": [
+                        {},
+                        { "time": 0.0333, "x": 10 },
+                        { "time": 0.1, "x": -10 },
+                        { "time": 0.1333 },
+                        { "time": 0.1667, "x": 10 },
+                        { "time": 0.2333, "x": -10 },
+                        { "time": 0.2667 },
+                        { "time": 0.3, "x": 10 },
+                        { "time": 0.3667, "x": -10 },
+                        { "time": 0.4 }
+                    ]
+                }
+            },
+            "events": [{ "time": 0.3, "name": "shake" }]
+        }
+    }
+}

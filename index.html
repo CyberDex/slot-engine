@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css">
+    <title>PixiJS - Template</title>
+</head>
+
+<body>
+    <div id="app">
+        <div id="pixi-container"></div>
+        <svg id="loader" width="48" height="48" viewBox="0 0 48 48" style="position:absolute">
+            <circle cx="24" cy="24" r="20" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4" />
+            <circle cx="24" cy="24" r="20" fill="none" stroke="#fff" stroke-width="4"
+                    stroke-linecap="round" stroke-dasharray="31 126">
+                <animateTransform attributeName="transform" type="rotate"
+                                  from="0 24 24" to="360 24 24" dur="0.8s" repeatCount="indefinite" />
+            </circle>
+        </svg>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

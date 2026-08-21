@@ -1,0 +1,8 @@
+#!/bin/sh
+# Run lint before every push. Push is aborted if lint fails.
+echo "→ Running lint before push..."
+pnpm run lint || {
+  echo "✗ Lint failed — push aborted. Fix the errors (try 'pnpm run lint:fix') and try again."
+  exit 1
+}
+echo "✓ Lint passed."

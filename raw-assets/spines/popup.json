@@ -1,0 +1,44 @@
+{
+    "skeleton": {
+        "hash": "uDIY83+ZBZQ",
+        "spine": "4.2.43",
+        "x": -372.5,
+        "y": -274,
+        "width": 745,
+        "height": 596.24
+    },
+    "bones": [
+        { "name": "popup" },
+        { "name": "bg", "parent": "popup" },
+        { "name": "text_Title", "parent": "bg", "y": 266.27 },
+        { "name": "spine_okButton", "parent": "popup", "y": -249.35 },
+        { "name": "spine_coin", "parent": "popup", "x": -145.8, "scaleX": 0.5, "scaleY": 0.5 },
+        { "name": "text_coins", "parent": "popup", "x": 116.1 }
+    ],
+    "slots": [
+        { "name": "bg", "bone": "bg", "attachment": "Window/SmallWindow" },
+        { "name": "title", "bone": "bg", "attachment": "Window/Ribbon" },
+        { "name": "spine_okButton", "bone": "spine_okButton" },
+        { "name": "text_Title", "bone": "text_Title" },
+        { "name": "spine_coin", "bone": "spine_coin" },
+        { "name": "text_coins", "bone": "text_coins" }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "bg": { "Window/SmallWindow": { "width": 745, "height": 548 } },
+                "title": { "Window/Ribbon": { "y": 252.74, "width": 529, "height": 139 } }
+            }
+        }
+    ],
+    "animations": {
+        "init": {},
+        "event_ok_click/hide-popup": {
+            "bones": { "popup": { "scale": [{}, { "time": 0.3333, "x": 0, "y": 0 }] } }
+        },
+        "event_settings_click/show-popup": {
+            "bones": { "popup": { "scale": [{ "x": 0, "y": 0 }, { "time": 0.1667 }] } }
+        }
+    }
+}

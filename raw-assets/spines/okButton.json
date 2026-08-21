@@ -1,0 +1,42 @@
+{
+    "skeleton": {
+        "hash": "dIDVHgqIrJ0",
+        "spine": "4.2.43",
+        "x": -178.5,
+        "y": -81.5,
+        "width": 357,
+        "height": 163
+    },
+    "bones": [{ "name": "okButton" }, { "name": "button_ok", "parent": "okButton" }],
+    "slots": [
+        { "name": "button_ok", "bone": "button_ok", "attachment": "Button/Button" },
+        { "name": "PlayIcon", "bone": "okButton", "attachment": "Icons/PlayIcon" }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "button_ok": { "Button/Button": { "width": 357, "height": 163 } },
+                "PlayIcon": {
+                    "Icons/PlayIcon": { "x": 9.89, "y": 12.36, "width": 74, "height": 81 }
+                }
+            }
+        }
+    ],
+    "events": { "click": { "audio": "click.mp3" } },
+    "animations": {
+        "event_ok_down/button-down": {
+            "bones": { "okButton": { "scale": [{ "x": 1.05, "y": 1.05 }, { "time": 0.1333 }] } },
+            "events": [{ "name": "click" }]
+        },
+        "event_ok_hover/button-hover": {
+            "bones": { "okButton": { "scale": [{}, { "time": 0.1333, "x": 1.05, "y": 1.05 }] } }
+        },
+        "event_ok_unhover/button-unhover": {
+            "bones": { "okButton": { "scale": [{ "x": 1.05, "y": 1.05 }, { "time": 0.1333 }] } }
+        },
+        "event_ok_up/button-hover": {
+            "bones": { "okButton": { "scale": [{}, { "time": 0.1333, "x": 1.05, "y": 1.05 }] } }
+        }
+    }
+}
