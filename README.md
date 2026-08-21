@@ -1,6 +1,6 @@
-# spine-layout-tests
+# slot-engine
 
-**Live demo:** https://cyberdex.github.io/spine-layout-tests/
+**Live demo:** https://cyberdex.github.io/slot-engine/
 
 A PixiJS + Spine layout test harness. 
 
