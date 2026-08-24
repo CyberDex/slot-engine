@@ -182,15 +182,26 @@ function assetpackPlugin(): Plugin {
       if (mode === "serve") {
         if (ap) return;
         ap = new AssetPack(apConfig);
-        // AssetPack has its own watcher on ./assets and rebuilds into the
-        // generated web root, but that lands in publicDir — outside Vite's
-        // module graph, so nothing there tells the page its assets changed.
-        // Reloading from the completion callback is what closes the loop:
-        // edit a sprite/spine/sound/json under ./assets, AssetPack reprocesses
-        // it (debounced, incremental), the page reloads and refetches. It also
-        // covers the very first build, which finishes after the browser has
-        // already been opened.
-        void ap.watch(() => server?.ws.send({ type: "full-reload" }));
+        void ap.watch((root) => {
+          // AssetPack reads a source file once and then keeps the bytes on the
+          // asset, dropping them only in the branch its own cache runs in —
+          // which `cache: false` above turns off. Left alone, every rebuild
+          // after the first one re-runs the pipes over the *first* build's
+          // bytes: files appearing and disappearing are tracked, edits to their
+          // contents are not, so an edited skeleton or sprite is repacked
+          // byte-for-byte identical and the page never changes. Releasing the
+          // buffers is what AssetPack does when cached, and it makes the next
+          // build read from disk again.
+          root.releaseChildrenBuffers();
+
+          // The rebuild lands in publicDir, outside Vite's module graph, so
+          // nothing there tells the page its assets changed. This closes the
+          // loop: edit a sprite/spine/sound/json under ./assets, AssetPack
+          // reprocesses it (debounced, incremental), the page reloads and
+          // refetches. It also covers the very first build, which finishes
+          // after the browser has already been opened.
+          server?.ws.send({ type: "full-reload" });
+        });
       } else {
         await new AssetPack(apConfig).run();
       }
