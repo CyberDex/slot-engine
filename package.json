@@ -1,11 +1,11 @@
 {
-  "name": "spine-layout-tests",
-  "version": "0.0.0",
+  "name": "slot-engine",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "start": "npm run dev",
-    "build": "npm run lint && tsc && vite build",
+    "build": "npm run lint && tsc && tsc -p tsconfig.node.json && vite build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@esotericsoftware/spine-pixi-v8": "^4.3.7",
+    "@pixi/layout": "2.0.1",
     "@pixijs-userland/spine-layout": "github:pixijs-userland/spine-layout",
     "howler": "^2.2.4",
     "pixi.js": "^8.19.0"
@@ -23,10 +24,13 @@
     "@assetpack/core": "^1.7.0",
     "@eslint/js": "^9.21.0",
     "@types/howler": "^2.2.13",
+    "@types/node": "^26.1.1",
     "eslint": "^9.21.0",
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-prettier": "^5.2.6",
+    "maxrects-packer": "2.7.3",
     "prettier": "^3.5.3",
+    "sharp": "~0.34.3",
     "typescript": "~5.7.3",
     "typescript-eslint": "^8.25.0",
     "vite": "^6.2.0"

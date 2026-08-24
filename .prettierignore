@@ -1,0 +1,9 @@
+# Build outputs / the generated web root - not ours to format.
+dist
+.assetpack
+
+# Machine-generated asset data (Spine exports, bitmap font descriptors).
+# Trailing `*` also covers AssetPack-tagged folder names, e.g. `spine{m}`.
+assets/spine*
+assets/fonts*
+pnpm-lock.yaml

@@ -1,0 +1,393 @@
+{
+  "win": {
+    "type": "bitmapText",
+    "fontFamily": "yellow",
+    "fontSize": 4,
+    "letterSpacing": -13,
+    "offset": {
+      "x": -16,
+      "y": -69
+    },
+    "wordWrap": false,
+    "maxWidth": 0,
+    "uppercase": false,
+    "value": "0"
+  },
+  "FREE SPINS": {
+    "fontFamily": "green",
+    "fontSize": 4,
+    "letterSpacing": -11,
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "wordWrap": false,
+    "maxWidth": 883,
+    "fill": 16777215,
+    "type": "bitmapText",
+    "uppercase": true,
+    "value": "FREE SPINS"
+  },
+  "START": {
+    "fontFamily": "green",
+    "fontSize": 2.5,
+    "letterSpacing": -16,
+    "offset": {
+      "x": 0,
+      "y": -13
+    },
+    "wordWrap": false,
+    "maxWidth": 280,
+    "fill": 16777215,
+    "type": "bitmapText",
+    "uppercase": false,
+    "value": "START"
+  },
+  "FSAmount": {
+    "fontFamily": "green",
+    "fontSize": 8,
+    "letterSpacing": -21,
+    "offset": {
+      "x": -9,
+      "y": -113
+    },
+    "wordWrap": false,
+    "maxWidth": 0,
+    "fill": 16777215,
+    "type": "bitmapText",
+    "uppercase": false,
+    "value": "0"
+  },
+  "balance": {
+    "type": "bitmapText",
+    "fontFamily": "yellow",
+    "fontSize": 1,
+    "letterSpacing": -3,
+    "offset": {
+      "x": 0,
+      "y": -18
+    },
+    "wordWrap": false,
+    "maxWidth": 223,
+    "uppercase": false,
+    "value": "0"
+  },
+  "bet": {
+    "type": "bitmapText",
+    "fontFamily": "yellow",
+    "fontSize": 1.5,
+    "letterSpacing": -7,
+    "offset": {
+      "x": -5,
+      "y": -25
+    },
+    "wordWrap": false,
+    "maxWidth": 0,
+    "uppercase": false,
+    "value": "0"
+  },
+  "total_win": {
+    "type": "bitmapText",
+    "fontFamily": "yellow",
+    "fontSize": 1.5,
+    "letterSpacing": -7,
+    "offset": {
+      "x": 0,
+      "y": -22
+    },
+    "wordWrap": false,
+    "maxWidth": 0,
+    "uppercase": false,
+    "value": "-"
+  },
+  "freeSpinsProgress": {
+    "type": "bitmapText",
+    "fontFamily": "yellow",
+    "fontSize": 1,
+    "letterSpacing": -4,
+    "offset": {
+      "x": 0,
+      "y": -16
+    },
+    "wordWrap": false,
+    "maxWidth": 0,
+    "uppercase": true,
+    "value": "1 of 15"
+  },
+  "popup_title": {
+    "type": "bitmapText",
+    "fontFamily": "green",
+    "fontSize": 4,
+    "letterSpacing": -22,
+    "offset": {
+      "x": -12,
+      "y": 0
+    },
+    "wordWrap": false,
+    "maxWidth": 970,
+    "uppercase": true,
+    "value": "Free spins"
+  },
+  "popup_content": {
+    "type": "bitmapText",
+    "fontFamily": "green",
+    "fontSize": 8,
+    "letterSpacing": 0,
+    "offset": {
+      "x": 0,
+      "y": -109
+    },
+    "wordWrap": false,
+    "maxWidth": 0,
+    "uppercase": false,
+    "value": "0"
+  },
+  "button_popup_close": {
+    "type": "bitmapText",
+    "fontFamily": "green",
+    "fontSize": 2.8,
+    "letterSpacing": -14,
+    "offset": {
+      "x": -9,
+      "y": -53
+    },
+    "wordWrap": false,
+    "maxWidth": 0,
+    "uppercase": true,
+    "value": "spin"
+  },
+  "Title": {
+    "type": "bitmapText",
+    "fontFamily": "green",
+    "fontSize": 2,
+    "letterSpacing": -8,
+    "offset": {
+      "x": 0,
+      "y": -34
+    },
+    "wordWrap": false,
+    "maxWidth": 0,
+    "uppercase": true,
+    "value": "Title"
+  },
+  "Game Name": {
+    "type": "bitmapText",
+    "fontFamily": "yellow",
+    "fontSize": 2.7,
+    "letterSpacing": -9,
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "wordWrap": false,
+    "maxWidth": 0,
+    "uppercase": true,
+    "value": "Game Name"
+  },
+  "coins": {
+    "type": "bitmapText",
+    "fontFamily": "yellow",
+    "fontSize": 6,
+    "letterSpacing": 0,
+    "offset": {
+      "x": 0,
+      "y": -116
+    },
+    "wordWrap": false,
+    "maxWidth": 0,
+    "uppercase": false,
+    "animateNumber": true,
+    "value": "50"
+  },
+  "speed_button": {
+    "speed": {
+      "type": "bitmapText",
+      "fontFamily": "yellow",
+      "align": "center",
+      "fontSize": 0.7,
+      "letterSpacing": 0,
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "wordWrap": false,
+      "maxWidth": 0,
+      "maxHeight": 0,
+      "uppercase": true,
+      "animateNumber": false,
+      "value": "2"
+    }
+  },
+  "ui": {
+    "balance": {
+      "type": "bitmapText",
+      "fontFamily": "green",
+      "align": "center",
+      "fontSize": 1,
+      "letterSpacing": -4,
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "wordWrap": false,
+      "maxWidth": 208,
+      "maxHeight": 0,
+      "uppercase": false,
+      "animateNumber": true,
+      "value": "1000000000"
+    },
+    "time": {
+      "type": "bitmapText",
+      "fontFamily": "yellow",
+      "align": "center",
+      "fontSize": 1,
+      "letterSpacing": -4,
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "wordWrap": false,
+      "maxWidth": 0,
+      "maxHeight": 0,
+      "uppercase": true,
+      "animateNumber": false,
+      "value": "12:00"
+    },
+    "bet": {
+      "type": "bitmapText",
+      "fontFamily": "green",
+      "align": "center",
+      "fontSize": 1,
+      "letterSpacing": -4,
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "wordWrap": false,
+      "maxWidth": 154,
+      "maxHeight": 0,
+      "uppercase": false,
+      "animateNumber": true,
+      "value": "100000000"
+    },
+    "total_win": {
+      "type": "bitmapText",
+      "fontFamily": "green",
+      "align": "center",
+      "fontSize": 1.5,
+      "letterSpacing": -9,
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "wordWrap": false,
+      "maxWidth": 242,
+      "maxHeight": 0,
+      "uppercase": true,
+      "animateNumber": true,
+      "value": "10000000"
+    },
+    "win": {
+      "type": "bitmapText",
+      "fontFamily": "green",
+      "align": "center",
+      "fontSize": 4,
+      "letterSpacing": 0,
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "wordWrap": false,
+      "maxWidth": 0,
+      "maxHeight": 0,
+      "uppercase": true,
+      "animateNumber": true,
+      "value": "1000000"
+    },
+    "balance_title": {
+      "type": "bitmapText",
+      "fontFamily": "yellow",
+      "align": "center",
+      "fontSize": 1,
+      "letterSpacing": -6,
+      "offset": {
+        "x": 0,
+        "y": -8
+      },
+      "wordWrap": false,
+      "maxWidth": 0,
+      "maxHeight": 0,
+      "uppercase": true,
+      "animateNumber": false,
+      "value": "balance"
+    },
+    "bet_title": {
+      "type": "bitmapText",
+      "fontFamily": "yellow",
+      "align": "center",
+      "fontSize": 1,
+      "letterSpacing": -5,
+      "offset": {
+        "x": 0,
+        "y": -6
+      },
+      "wordWrap": false,
+      "maxWidth": 0,
+      "maxHeight": 0,
+      "uppercase": true,
+      "animateNumber": false,
+      "value": "bet"
+    },
+    "win_title": {
+      "type": "bitmapText",
+      "fontFamily": "yellow",
+      "align": "center",
+      "fontSize": 1,
+      "letterSpacing": -5,
+      "offset": {
+        "x": 0,
+        "y": -7
+      },
+      "wordWrap": false,
+      "maxWidth": 0,
+      "maxHeight": 0,
+      "uppercase": true,
+      "animateNumber": false,
+      "value": "win"
+    },
+    "freeSpinsProgress": {
+      "type": "bitmapText",
+      "fontFamily": "green",
+      "align": "center",
+      "fontSize": 1.5,
+      "letterSpacing": -8,
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "wordWrap": false,
+      "maxWidth": 0,
+      "maxHeight": 0,
+      "uppercase": true,
+      "animateNumber": false,
+      "value": "12/22"
+    },
+    "freeSpins_title": {
+      "type": "bitmapText",
+      "fontFamily": "yellow",
+      "align": "center",
+      "fontSize": 1,
+      "letterSpacing": -5,
+      "offset": {
+        "x": 0,
+        "y": -6
+      },
+      "wordWrap": false,
+      "maxWidth": 0,
+      "maxHeight": 0,
+      "uppercase": true,
+      "animateNumber": false,
+      "value": "free  spins"
+    }
+  }
+}

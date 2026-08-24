@@ -11,6 +11,9 @@ importers:
       '@esotericsoftware/spine-pixi-v8':
         specifier: ^4.3.7
         version: 4.3.12(pixi.js@8.19.0)
+      '@pixi/layout':
+        specifier: 2.0.1
+        version: 2.0.1(pixi.js@8.19.0)
       '@pixijs-userland/spine-layout':
         specifier: github:pixijs-userland/spine-layout
         version: https://codeload.github.com/pixijs-userland/spine-layout/tar.gz/c2093b9741fe3bc4589a038aa46300713ecba0d6(@esotericsoftware/spine-pixi-v8@4.3.12(pixi.js@8.19.0))(howler@2.2.4)(pixi.js@8.19.0)
@@ -30,6 +33,9 @@ importers:
       '@types/howler':
         specifier: ^2.2.13
         version: 2.2.13
+      '@types/node':
+        specifier: ^26.1.1
+        version: 26.1.1
       eslint:
         specifier: ^9.21.0
         version: 9.39.5
@@ -39,9 +45,15 @@ importers:
       eslint-plugin-prettier:
         specifier: ^5.2.6
         version: 5.5.6(eslint-config-prettier@10.1.8(eslint@9.39.5))(eslint@9.39.5)(prettier@3.9.6)
+      maxrects-packer:
+        specifier: 2.7.3
+        version: 2.7.3
       prettier:
         specifier: ^3.5.3
         version: 3.9.6
+      sharp:
+        specifier: ~0.34.3
+        version: 0.34.5
       typescript:
         specifier: ~5.7.3
         version: 5.7.3
@@ -893,6 +905,11 @@ packages:
 
   '@pixi/colord@2.9.6':
     resolution: {integrity: sha512-nezytU2pw587fQstUu1AsJZDVEynjskwOL+kibwcdxsMBFqPsFFNA7xl0ii/gXuDi6M0xj3mfRJj8pBSc2jCfA==}
+
+  '@pixi/layout@2.0.1':
+    resolution: {integrity: sha512-xQj/w44FKLaRn71iEQACxRTYgEVU4c8SXTJKcSIDm/uXgKm3JKRylEOpQ9u6x3gWIFeV5d3gx/oHBJHdZhqAoQ==}
+    peerDependencies:
+      pixi.js: ^8.0.4
 
   '@pixi/msdf-bmfont-xml@3.0.0':
     resolution: {integrity: sha512-h/FDfBnWiv4+5JNNsfYs3wpDYYOJCCd14PMbFpt1sHDfutJGZ6MvDvq5JI7pL6toX25uyGPV9ADMCdV1KCVulg==}
@@ -3109,6 +3126,10 @@ snapshots:
       '@node-rs/crc32-win32-x64-msvc': 1.10.6
 
   '@pixi/colord@2.9.6': {}
+
+  '@pixi/layout@2.0.1(pixi.js@8.19.0)':
+    dependencies:
+      pixi.js: 8.19.0
 
   '@pixi/msdf-bmfont-xml@3.0.0':
     dependencies:

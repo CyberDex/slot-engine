@@ -12,8 +12,8 @@ dist
 dist-ssr
 *.local
 
-# AssetPack output (generated from ./raw-assets) + cache
-public/assets
+# Generated web root (AssetPack output from ./assets) + AssetPack cache.
+# There is no ./public in this repo - see vite.config.ts.
 .assetpack
 
 # Editor directories and files
