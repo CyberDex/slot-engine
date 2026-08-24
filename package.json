@@ -16,7 +16,7 @@
   "dependencies": {
     "@esotericsoftware/spine-pixi-v8": "^4.3.7",
     "@pixi/layout": "2.0.1",
-    "@pixijs-userland/spine-layout": "github:pixijs-userland/spine-layout",
+    "@pixijs-userland/spine-layout": "github:pixijs-userland/spine-layout#05530f07ae20211b451ff19a0cb8396a747945f0",
     "howler": "^2.2.4",
     "pixi.js": "^8.19.0"
   },
