@@ -42,10 +42,6 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        with:
-          # Create the Pages site (build_type: workflow) on the first run
-          # instead of failing when it has not been enabled in Settings yet.
-          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
